@@ -1,0 +1,11 @@
+---
+applications:
+- disk_quota: 1024M
+  name: myBluemixTestapp
+  domain: mybluemix.net
+  host: myBluemixTest-app
+  memory: 256M
+  instances: 1
+  timeout: 180
+  buildpack: sdk-for-nodejs
+  command: npm start

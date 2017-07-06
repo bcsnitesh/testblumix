@@ -1,0 +1,9 @@
+---
+applications:
+- disk_quota: 1024M
+  name: myphptestapp
+  domain: mybluemix.net
+  host: myphptestapp
+  memory: 512M
+  instances: 1
+  timeout: 180
